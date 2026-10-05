@@ -1,0 +1,1 @@
+'use client';import {RequireAuth} from './RequireAuth';import {Nav} from './Nav';export function AppShell({children}:{children:React.ReactNode}){return <RequireAuth><div className="min-h-screen pb-28">{children}<Nav/></div></RequireAuth>}
